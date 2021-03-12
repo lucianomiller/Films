@@ -1,4 +1,5 @@
 import Movie from "./components/Movie";
+//import './App.css';
 
 import React , {useEffect, useState} from "react";
 const FEATURED_API= "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=04c35731a5ee918f014970082a0088b1&query=";
@@ -41,7 +42,11 @@ function App() {
   }
   return (
     <>
-      <header> LUCHISPEDIA!
+      <header > 
+        <button onClick={()=> window.location = '/Films' }>
+
+        <h2>Home</h2>
+        </button>
         <form onSubmit={handleOnSubmit}>
 
         <input className="search"

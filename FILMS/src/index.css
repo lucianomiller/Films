@@ -77,7 +77,8 @@ header{
   background-color: #373b69;
   padding: 1rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
+  align-items: center;
 }
 .search{
   background-color: transparent;
@@ -102,4 +103,13 @@ header{
 }
 .tag.red{
   color: red;
+}
+
+button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
 }
